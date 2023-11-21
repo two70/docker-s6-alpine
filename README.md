@@ -14,18 +14,6 @@ See the [S6 Overlay Documentation](https://github.com/just-containers/s6-overlay
 
 Version relates to Alpine version
 
-x86_64:
-
-```shell
-docker run ghcr.io/two70/s6-alpine
-```
-or 
-```shell
-docker run ghcr.io/two70/s6-alpine:3.18.1
-```
-
-ARM:
-
 ```shell
 docker run ghcr.io/two70/s6-alpine
 ```
