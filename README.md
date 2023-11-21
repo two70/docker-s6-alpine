@@ -17,11 +17,18 @@ Version relates to Alpine version
 x86_64:
 
 ```shell
-docker run oznu/s6-alpine
+docker run ghcr.io/two70/s6-alpine
+```
+or 
+```shell
+docker run ghcr.io/two70/s6-alpine:3.18.1
 ```
 
 ARM:
 
 ```shell
-docker run oznu/s6-alpine:armhf
+docker run ghcr.io/two70/s6-alpine
 ```
+or 
+```shell
+docker run ghcr.io/two70/s6-alpine:3.18.1
