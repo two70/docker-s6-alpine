@@ -12,6 +12,8 @@ This is a base Apline image with the [S6 Overlay](https://github.com/just-contai
 
 See the [S6 Overlay Documentation](https://github.com/just-containers/s6-overlay) for details on how to manage services.
 
+Version relates to Alpine version
+
 x86_64:
 
 ```shell
