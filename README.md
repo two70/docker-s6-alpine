@@ -2,6 +2,8 @@
 
 Since the main repo is no longer maintained, I forked it to keep it up to date because it's used as the base image for docker-cloudflare-ddns image.
 
+[![Docker](https://github.com/two70/s6-alpine/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/two70/s6-alpine/actions/workflows/docker-publish.yml)
+
 # s6-alpine
 
 This is a base Apline image with the [S6 Overlay](https://github.com/just-containers/s6-overlay)
