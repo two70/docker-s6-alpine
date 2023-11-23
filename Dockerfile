@@ -1,6 +1,8 @@
 ARG BASE_IMAGE
 FROM ${BASE_IMAGE:-library/alpine}:3.18
 
+# TARGETPLATFORM is injected from the buildx command in the github action (.github/workflows/docker-publish.yml)
+# https://docs.docker.com/engine/reference/commandline/buildx_build/#build-arg
 ARG TARGETPLATFORM
 ENV TARGETPLATFORM=${TARGETPLATFORM:-linux/amd64} S6_KEEP_ENV=1
 
