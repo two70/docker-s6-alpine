@@ -79,7 +79,7 @@ jobs:
         uses: docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934 # v5.0.0
         with:
           images: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}
+            two70/s6-alpine
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
             # use custom value instead of git tag
