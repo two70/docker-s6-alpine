@@ -1,5 +1,5 @@
-ARG BASE_IMAGE
-FROM ${BASE_IMAGE:-library/alpine}:3.18
+ARG ALPINE_VERSION
+FROM library/alpine:${ALPINE_VERSION}
 
 # TARGETPLATFORM is injected from the buildx command in the github action (.github/workflows/docker-publish.yml)
 # https://docs.docker.com/engine/reference/commandline/buildx_build/#build-arg
