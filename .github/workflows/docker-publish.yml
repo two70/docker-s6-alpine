@@ -85,7 +85,7 @@ jobs:
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
             # use custom value instead of git tag
-            type=semver,pattern={{version}},value=${env.ALPINE_VERSION}
+            type=semver,pattern={{version}},value=${{env.ALPINE_VERSION}}
 
       # Build and push Docker image with Buildx (don't push on PR)
       # https://github.com/docker/build-push-action
